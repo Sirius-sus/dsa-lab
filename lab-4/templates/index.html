@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+    <h1>Лабораторная работа №4</h1>
+    <p>Разработка механизмов аутентификации и авторизации для WEB-приложений на Flask</p>
+
+    <form action="{{ url_for('logout') }}" method="GET">
+        <button type="submit">Выход</button>
+    </form>
+</body>
+</html>
